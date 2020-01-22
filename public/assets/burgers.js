@@ -25,10 +25,10 @@ $(function() {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
   
-      var newBurger = {
-        name: $("#ca").val().trim(),
-        devoured: $("[name=devoured]:checked").val().trim()
-      };
+    //   var newBurger = {
+    //     name: $("#ca").val().trim(),
+    //     devoured: $("[name=devoured]:checked").val().trim()
+    //   };
   
       // Send the POST request.
       $.ajax("/api/burgers", {
