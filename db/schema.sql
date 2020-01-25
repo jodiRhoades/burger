@@ -1,4 +1,6 @@
-CREATE DATABASE vit9huq1dtat1qd2;
+DROP DATABASE IF EXISTS vit9huq1dtat1qd2;
+CREATE DATABASE vit9huq1dtat1qd2
+
 USE vit9huq1dtat1qd2;
 
 CREATE TABLE burgers
