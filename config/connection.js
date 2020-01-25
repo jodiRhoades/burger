@@ -12,7 +12,7 @@ else {
     password: "jojo2448",
     database: "burgers_db"
   });
-
+}
   // Make connection.
   connection.connect(function (err) {
     if (err) {
@@ -24,4 +24,4 @@ else {
 
   // Export connection for our ORM to use.
   module.exports = connection;
-}
+
